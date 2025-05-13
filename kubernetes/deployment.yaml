@@ -18,7 +18,7 @@ spec:
         - name: postgresql-analyzer
           image: 940019131157.dkr.ecr.us-west-2.amazonaws.com/postgresql-mcp-server:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 8000
           env:
             - name: DB_SECRET_NAME
               value: "dev/db/credentials"
